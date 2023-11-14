@@ -1,0 +1,5 @@
+<button (click)="updateEmployee()">Update</button>
+
+<ul>
+    <li *ngFor="let emp of employees;trackBy: trackByFn">Name: {{emp.name}}, Class: {{emp.class}}</li>
+</ul>
